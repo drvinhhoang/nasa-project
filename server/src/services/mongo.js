@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Update below to match your own MongoDB connection string.
-const MONGO_URL = 'mongodb+srv://nasa-api:qX4ciaDgNwIROfPp@nasacluster.dtciu.mongodb.net/nasa?retryWrites=true&w=majority';
+const MONGO_URL = 'mongodb+srv://drvinhhoang:Hoangvinh93@nasacluster.kx8xc.mongodb.net/?retryWrites=true&w=majority&appName=NASAClustery';
 
 
 mongoose.connection.once('open', () => {
